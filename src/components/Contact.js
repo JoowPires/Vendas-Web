@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="contact-method-info">
                   <h4>E-mail</h4>
                   <p>
-                    <a href="mailto:contato@webpro.com.br">contato@webpro.com.br</a>
+                    <a href="mailto:contato@webboost.com.br">contato@webboost.com.br</a>
                   </p>
                 </div>
               </div>

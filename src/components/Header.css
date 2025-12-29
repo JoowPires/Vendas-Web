@@ -42,6 +42,12 @@
   font-size: 1.1rem;
 }
 
+.logo-image {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
 nav {
   display: flex;
   gap: 32px;
