@@ -15,8 +15,8 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <div className="footer-logo-icon">W</div>
-            <span>WebPro</span>
+            <img src="/images/logo.png" alt="WebBoost" className="footer-logo-image" />
+            <span>WebBoost</span>
           </div>
           <div className="footer-links">
             <a href="#solucoes" onClick={(e) => handleNavClick(e, '#solucoes')}>Soluções</a>
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-copy">
-          © 2025 WebPro. Todos os direitos reservados. | CNPJ: 00.000.000/0001-00
+          © 2025 WebBoost. Todos os direitos reservados. | CNPJ: 00.000.000/0001-00
         </div>
       </div>
     </footer>

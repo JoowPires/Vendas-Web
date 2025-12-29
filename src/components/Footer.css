@@ -30,6 +30,12 @@
   font-weight: 800;
 }
 
+.footer-logo-image {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
 .footer-links {
   display: flex;
   gap: 32px;

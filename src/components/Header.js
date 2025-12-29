@@ -27,8 +27,8 @@ const Header = () => {
       <div className="container">
         <div className="header-inner">
           <a href="#" className="logo">
-            <div className="logo-icon">W</div>
-            <span>WebPro</span>
+            <img src="/images/logo.png" alt="WebBoost" className="logo-image" />
+            <span>WebBoost</span>
           </a>
           <nav className={menuOpen ? 'open' : ''}>
             <a href="#solucoes" onClick={(e) => handleNavClick(e, '#solucoes')}>Soluções</a>

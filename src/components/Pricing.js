@@ -5,7 +5,8 @@ const plans = [
   {
     name: 'Landing Page',
     description: 'Ideal para campanhas e captação de leads',
-    price: '997',
+    price: 'a partir de 197',
+    pricePrefix: 'R$ ',
     featured: false,
     features: [
       '1 página de alta conversão',
@@ -20,7 +21,8 @@ const plans = [
   {
     name: 'Site Completo',
     description: 'Para quem quer presença digital profissional',
-    price: '1.997',
+    price: 'A combinar',
+    pricePrefix: '',
     featured: true,
     features: [
       'Até 5 páginas personalizadas',
@@ -54,10 +56,10 @@ const Pricing = () => {
                 <h3 className="pricing-name">{plan.name}</h3>
                 <p className="pricing-desc">{plan.description}</p>
                 <div className="pricing-price">
-                  <span className="pricing-currency">R$</span>
+                  {plan.pricePrefix && <span className="pricing-currency">{plan.pricePrefix}</span>}
                   <span className="pricing-value">{plan.price}</span>
                 </div>
-                <span className="pricing-period">pagamento único</span>
+                {plan.pricePrefix && <span className="pricing-period">pagamento único</span>}
               </div>
               <ul className="pricing-features">
                 {plan.features.map((feature, idx) => (
